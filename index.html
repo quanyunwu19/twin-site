@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research site</title>
+<meta name="description" content="Password-protected research site.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230e6e5c'/><path d='M22 30h56v12H34v16h32v12H34v16H22z' fill='white'/></svg>">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-top"><h1>OfficeTwin</h1><button id="lang-btn" class="lang-btn" type="button">English</button></div>
+    <div class="sub" id="hero-sub"></div>
+    <div class="meta" id="hero-meta"></div>
+    <div class="links">
+      <a href="#viewer" id="lnk-viewer"></a>
+      <a href="#demo" id="lnk-demo"></a>
+      <a href="#failures" id="lnk-failures"></a>
+    </div>
+  </div>
+</header>
+
+<nav class="toc"><div class="inner" id="nav"></div></nav>
+
+<main id="page"></main>
+
+<footer id="footer"></footer>
+
+<script>window.OT_STATIC=1</script>
+<script type="importmap">{ "imports": { "three": "./vendor/three.module.js" } }</script>
+<script type="module" src="app.js?v=6"></script>
+</body>
+</html>
